@@ -108,6 +108,7 @@ body {
 }
 
 .principies-title {
+  font-size: inherit;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--second-title-color);
@@ -182,6 +183,11 @@ body {
 .footer-tel {
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--accent-color);
 }
 
 /* -----portfolio-filter----- */
